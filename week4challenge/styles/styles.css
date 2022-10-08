@@ -1,0 +1,21 @@
+
+
+.main-para {
+    font-size: 10em;
+    line-height: 1.5em;
+}
+
+body {
+  background-color: lightpink;
+}
+
+h1 {
+  color: rgb(234, 230, 230);
+  text-align: center;
+  font-family: cursive;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
