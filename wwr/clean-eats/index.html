@@ -5,12 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clean Tasty Eats</title>
+    <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
     <div id="content">
+
+
         <header>
-            <a id="log_link" href="index.html">
-                <img class = "logo" src="images/logo.png" alt="Clean Tasty Eats Logo">
+            <a id="logo_link" href="index.html">
+                <img class = "logo" src="images/my-logo.png" alt="Clean Tasty Eats Logo">
             </a>
             <nav>
                 <a href="index.html">Home</a>
@@ -18,30 +21,35 @@
                 <a href="desserts.html">Dessert / Contact Us</a>
             </nav>
         </header>
+
+        
         <div id="new-items">
             <div id="new-items-box">
-                <img src="images/keto-diet-meals-buffalo-chicken-cass-722x406.jpg" alt="Buffalo Chicken Casserole">
+                <img id="newItem" src="images/buffalochickenjalapenopoppercasserole1.jpg" alt="Buffalo Chicken Casserole">
             </div>
             <section id="new-items-msg">
                 <h1 class="clean-eating-is-fun">Clean Eating is Fun and Rewarding</h1>
-                <h3>NEW</h3>
-                <h3>Buffalo Chicken Casserole</h3>
-            </section>
-           
+                <h3 id="new">NEW</h3>
+                <h3 id="new-item">Buffalo Chicken Casserole</h3>
+            </section> 
         </div>
-        <main id="Main-grid">
-            <section class="What">
-                <h2>
-                    If you’re interested in clean eating while also limiting your carbohydrates, you may have heard
-                     of the keto and paleo diet. The keto and paleo diets are a diet approach that focuses on getting
-                      your nutrients from fresh, unprocessed, or minimally processed foods. The thought of avoiding 
-                      heavily processed foods might seem a lot of work, but eating cleaner can be easy and even better,
-                       rewarding with a few helpful guidelines at your disposal.
-                </h2>
-            </section>
+
+
+        
+        <div class="What">
+            <h2>
+                If you’re interested in clean eating while also limiting your carbohydrates, you may have heard
+                 of the keto and paleo diet. The keto and paleo diets are a diet approach that focuses on getting
+                  your nutrients from fresh, unprocessed, or minimally processed foods. The thought of avoiding 
+                  heavily processed foods might seem a lot of work, but eating cleaner can be easy and even better,
+                   rewarding with a few helpful guidelines at your disposal.
+            </h2>
+        </div>
+        
+            
             <section class="Keto-Diet">
-                <h1>KETO DIET</h1>
-                <img src="images/download-keto.jfif" alt="Keto Food">
+                <h1>KETO DIET </h1>
+                <img id="keto-food"src="images/keto-ftr.jpg" alt="Keto Food">
                 <p>
                     The ketogenic diet, or keto diet, is a low-carb, high-fat regimen that limits carbohydrates to as 
                     low as 20 grams per day or even less. Meats, fish, eggs, most vegetables, nuts and seeds are all on
@@ -54,7 +62,7 @@
             </section>
             <section class="Paleo-diet">
                 <h1>PALEO DIET</h1>
-                <img src="images/Our-Paleo-Life-Recipe-Search.jpg" alt="Paleo Food">
+                <img id="paleo-food"src="images/paleo.jpg" alt="Paleo Food">
                 <p>
                     The popular Paleolithic diet, or paleo diet, centers on the idea that eating like our ancestors aligns
                      with our genetics and promotes good health. It’s also known as the caveman, Stone Age, or steak and bacon
@@ -72,7 +80,7 @@
                 </h2>
             </section>
 
-        </main>
+       
         <footer>
             <p>Clean Tasty Eats &copy; 2022 - William Chad Finch</p>
             <p><a href="site-plan.html">Site Plan</a></p>
