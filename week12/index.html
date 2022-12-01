@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DROP BOX</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Click Here</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="https://www.churchofjesuschrist.org/comeuntochrist">Light The World</a>
+          <a href="https://www.churchofjesuschrist.org/comeuntochrist/believe?lang=eng">Our Beliefs</a>
+          <a href="https://www.churchofjesuschrist.org/comeuntochrist/belong?lang=eng">Come Worship With Us</a>
+        </div>
+      </div>
+
+      <script>
+
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+  
+  // Close the dropdown menu if the user clicks outside of it
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
+      </script>
+</body>
+</html>
